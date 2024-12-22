@@ -1,0 +1,75 @@
+/* General layout */
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(135deg, #6e7dff, #5560ea);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.App-title {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.Login-title {
+    font-size: 1 rem;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input styling */
+.login-input {
+    padding: 12px 20px;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Input focus styling */
+.login-input:focus {
+    border-color: #5560ea;
+}
+
+/* Button styling */
+.login-button {
+    background-color: #5560ea;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.login-button:hover {
+    background-color: #4a52c2;
+}
+
+/* Button disabled state */
+.login-button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
